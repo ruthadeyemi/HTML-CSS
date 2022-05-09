@@ -1,0 +1,393 @@
+*{
+    font-family: IBM Plex Sans;
+}
+.container{
+    width: 100vw;
+    height: 120vh;
+    background: #fff url("https://res.cloudinary.com/semicolon-website/image/upload/v1637762891/website/assets/hero-backgrounds/Hero-Image_hbuici.png"
+    ) no-repeat right;
+    background-size: auto 100%;
+}
+.header svg{
+    margin-top: 1.5%;
+    cursor: pointer;
+    padding-left: 6%;
+}
+.information-links {
+    padding-left: 25%;
+    margin-top: -2.5em;
+    display: flex;
+    gap: 3rem;
+}
+.information-links a{
+    color: #1e323f;
+    font-size: .875rem;
+    font-weight: 500;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+}
+.header-buttons{
+    margin-right: -2%;
+    gap: 1em;
+    justify-content: right;
+    margin-top: -5.3vh;
+    display: flex;
+    width: 190vh;
+}
+.header-buttons-1 button{
+    border: none;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 50px;
+    width:180px;
+    color: rgb(255, 46, 46);;
+    background-color:rgb(254, 243, 243);
+}
+.header-buttons-2 button{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(255, 46, 46);;
+    color: white;
+    height: 50px;
+    width:150px;
+    border: none;
+}
+.half-body{
+    width: 40%;
+}
+.half-body-text{
+    line-height: 40px;
+    margin-left: 10rem;
+}
+.half-body-text h1{
+    margin-top: 7.5rem;
+    font-size: 40px!important;
+}
+.word{
+    color: rgb(255, 46, 46);;
+}
+.half-body-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #475661;
+}
+.buttons{
+    gap: 1em;
+    margin-left: 10rem;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    display: flex;
+}
+.half-body-button-1 button{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(255, 46, 46);
+    color: white;
+    height: 50px;
+    width:150px;
+    border: none;
+}
+.half-body-button-2 button{
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 50px;
+    width:180px;
+    border-color: #FF8686;
+    color: rgb(255, 46, 46);;
+    background-color: transparent;
+}
+.half-body-button-2 svg{
+    color: rgb(255, 46, 46);
+    margin-right: 4px;
+}
+.hire-companies {
+    margin-left: 10rem;
+}
+.hire-companies h1{
+    margin-top: 25%;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .1em;
+    color:#475661;
+}
+.hire-companies-logos{
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.natives-comments h1{
+    padding-top: 10%;
+    /*justify-content: center;*/
+    padding-left: 30%;
+    color: #1e323f;
+}
+.s-h-b{
+    background: url("https://res.cloudinary.com/semicolon-website/image/upload/v1637762892/website/assets/hero-backgrounds/try_k0wo5g.svg");
+    height: 65vh;
+}
+.comments-container{
+    background-size: cover;
+    height: auto;
+    padding-bottom: 5rem;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.comments-container img{
+    margin-left: 50.5rem;
+    margin-top: 2%;
+}
+.comments-bbb{
+    padding-left: 5rem;
+    gap: 23rem;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.comments-button-1 button{
+    color: black;
+    border-radius: 15px;
+    border: none;
+    height: 1900%;
+    width: 3000%;
+    background-color: white;
+}
+.comments-button-2 button{
+    border-radius: 15px;
+    border: none;
+    height: 1900%;
+    width: 3000%;
+    background-color: white;
+}
+.comments-button-3 button{
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    height: 1900%;
+    width: 3000%;
+}
+.t-h-b{
+    background: white;
+    height: 110vh;
+}
+.t-h-b h1{
+    margin-top: 12%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -.02em;
+    color: #1e323f;
+}
+.about{
+    margin-top: 5%;
+    gap: 4rem;
+    padding-right: 24px!important;
+    padding-left: 24px!important;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.curri{
+    padding-left: 12rem;
+}
+.expe h1{
+    margin-left: -1.8em;
+}
+.sw{
+    padding-left: 12rem;
+}
+.sw h1{
+    margin-left: -8.8em;
+}
+.ajo h1{
+    margin-left: -0.8em;
+}
+.start h1{
+    margin-left: -6.8em;
+}
+.f-h-b{
+    height: 107.5vh;
+    background: #d9ebfc;
+}
+.f-h-b img{
+    /*padding-top: 1%;*/
+    float: right;
+}
+.sub{
+    padding-left: 6rem;
+    width: 50%;
+}
+.sub h1{
+    color: #1e323f;
+    margin-left: 6%;
+    padding-top: 5%;
+}
+.subject{
+    width: 65%;
+    height: 547px;
+    background: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+.subject h1{
+    color: #1e323f;
+}
+.subject p{
+    margin-left: 6%;
+    color: #475661;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.fi-h-b{
+    height: 100vh;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.fi-h-b h1{
+    padding-top: 7%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    color: #1e323f;
+}
+.win-img{
+    margin-top: 4%;
+    gap: 1rem;
+    display: flex;
+}
+.win-img-1 img{
+    width:480px;
+    height: 480px;
+}
+.win-img-2 img{
+    width:480px;
+    height: 480px;
+}
+.win-img-3 img{
+    width:480px;
+    height: 480px;
+}
+.partners h1{
+    margin-top: 5%;
+    text-align: center;
+}
+.p-img{
+    margin-top: 9%;
+    display: flex;
+    padding-left: 23rem;
+}
+.p-img-1{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+.p-7{
+    margin-top: -3%;
+}
+.p-3{
+    margin-left: -6%;
+}
+.p-4{
+    margin-left: -4%;
+}
+.si-h-b{
+    padding-top: 6%;
+    height: 77vh;
+}
+.sub-si-h-b{
+    margin-bottom: 5rem;
+    height: 300px;
+    width:1000px ;
+    background-image: url(https://res.cloudinary.com/semicolon-website/image/upload/v1637769950/website/assets/Square_Dots_bdj8ve.svg)
+
+}
+.sub-subb{
+    margin-left: 11%;
+    width: 1120px;
+    background-image: url(https://res.cloudinary.com/semicolon-website/image/upload/v1637762893/website/assets/hero-backgrounds/native-background_akyk8r.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 64px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.o-line img{
+    margin-left: 63%;
+}
+.sub-subb h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.b-c-native button{
+    margin-left: 43%;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    color: red;
+    height: 50px;
+    width:150px;
+    border-radius: 10px;
+}
+.f-a-q{
+    height: 100vh;
+}
+.sub-f-a-q h1{
+    text-align: center;
+}
+.questions{
+    height: 500px;
+    width: 580px;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+.se-h-b{
+    height: 60vh;
+    background: #1e323f url("https://res.cloudinary.com/semicolon-website/image/upload/v1637762654/website/assets/switImages/townCrierBackground_cdla2j.png");
+}
+.sub-se-h-b{
+    padding-top: 4%;
+    display: flex;
+}
+.town h1{
+    padding-left: 11%;
+    color: white;
+}
+.town p{
+    line-height: 2;
+    font-size: large;
+    color: white;
+}
+.sus{
+    display: flex;
+    /*flex-direction: row;*/
+    /*margin-right: 40%;*/
+    /* padding-top: 18%;*/
+}
+.e-h-b{
+    height: 100vh;
+}
+.sub-e{
+    margin-top: 3%;
+    gap: 10rem;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+

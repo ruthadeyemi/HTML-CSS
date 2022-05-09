@@ -1,0 +1,116 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90vw;
+    height: 80vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17,0,255);
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+}
+.header_content{
+    color: white;
+}
+.header_content h1{
+    margin: 0;
+    line-height: 1.3em;
+}
+.header_content p{
+    margin: 10px;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+.information{
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.card{
+    -webkit-box-shadow: 5px 5px 9px 5px #d4d4d4;
+    box-shadow: 5px 5px 9px 5px #d4d4d4;
+    height: 200px;
+    width: 40%;
+    border-radius: 4px;
+    padding: 20px;
+}
+.card button{
+    background-color: rgb(17,0,255);
+    padding: 15px 20px;
+    color: white;
+    border: unset;
+    border-radius: 4px;
+    text-align: left;
+    width: 25%;
+}
+.sliding{
+    display: flex;
+    justify-content: center;
+}
+.sliding img{
+    height: 400px;
+    border-radius: 12px;
+    position: absolute;
+}
+@keyframes slide1 {
+    0%{
+        left: 0%;
+        opacity: 1;
+    }
+    50%{
+        left: 30%;
+        opacity: 1;
+    }
+    100%{
+        left: 61%;
+        opacity: 0;
+    }
+}
+@keyframes slide2 {
+    0%{
+        right:61%;
+        opacity:0;
+    }
+    50%{
+        left: 0%;
+        opacity: 0;
+    }
+    100%{
+        left: 30%;
+        opacity: 1;
+    }
+}
+.sliding_image1{
+    animation: slide1 5s infinite;
+}
+.sliding_image2{
+    animation: slide2 5s infinite;
+}
+.social_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 25em;
+}
+.social_icons{
+    display: flex;
+}
+.social_icons svg{
+    margin-right: 3rem;
+}
+.social_container{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.google_icons img{
+    margin-right: 4rem;
+}
