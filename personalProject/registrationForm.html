@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link href="registrationForm.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please kindly fill out this form with the required information, Thank you.</p>
+    <form action="https://">
+        <fieldset>
+            <label>Enter Your First Name: <input name="first-name" type="text" required /></label>
+            <label>Enter Your Last Name: <input name="second-name" type="text" required/></label>
+            <label>Enter Your Email: <input name="email" type="email" required/></label>
+            <label>Create a New Password: <input name="password" type="password" required pattern="[a-zA-Z0-5]{10,}" /></label>
+            <label>Confirm the New Password: <input name="password" type="password" required pattern="[a-zA-Z0-5]{10,}" /></label>
+        </fieldset>
+        <fieldset>
+            <label><input class="inline" type="radio" name="account-type" /> Personal Account</label>
+            <label><input class="inline" type="radio" name="account-type" /> Business Account</label>
+            <label><input class="inline" name="terms" type="checkbox" required /><a href="https://">terms and conditions</a> </label>
+        </fieldset>
+        <fieldset>
+            <label>Upload a profile picture: <input name="file" type="file" /></label>
+            <label>Input your age (years): <input name="age" type="number" min="13" max="120"></label>
+            <label>How did you hear about us?
+                <select name="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">Tik Tok</option>
+                    <option value="2">YouTube</option>
+                    <option value="3">Instagram</option>
+                    <option value="3">Facebook</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            <label>Provide a bio:
+                <textarea name="bio" rows="3" cols="30" placeholder="I like..."></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

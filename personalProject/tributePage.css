@@ -1,0 +1,49 @@
+body{
+    text-align:center;
+    background-color: white;
+}
+main{
+    margin: 45px 10px;
+    padding: 10px;
+    border-radius: 2px;
+    background: #eee;
+}
+#title{
+    text-align:center;
+}
+#img-div{
+    padding:10px;
+    margin:0;
+    background-color: white;
+}
+img{
+    display:block;
+}
+#image{
+    max-width:100%;
+    height:auto;
+    margin:auto;
+}
+
+
+
+h1 p{
+    margin:0 auto;
+}
+ul{
+    max-width:550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+li{
+    line-height:2;
+}
+a{
+    color:#477ca7;
+}
+blockquote{
+    margin: 0 auto 50px auto;
+    font-style:italic;
+    text-align: left;
+    max-width: 550px;
+}

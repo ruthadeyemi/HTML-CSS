@@ -132,50 +132,54 @@
 }
 .s-h-b{
     background: url("https://res.cloudinary.com/semicolon-website/image/upload/v1637762892/website/assets/hero-backgrounds/try_k0wo5g.svg");
-    height: 65vh;
+    height: 70vh;
 }
-.comments-container{
-    background-size: cover;
-    height: auto;
-    padding-bottom: 5rem;
-    background-position: 50%;
-    background-position-x: 50%;
-    background-position-y: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
+.comments-bbb{
+    gap: 2%;
+    display: flex;
+    justify-content: center;
 }
 .comments-container img{
     margin-left: 50.5rem;
     margin-top: 2%;
 }
-.comments-bbb{
-    padding-left: 5rem;
-    gap: 23rem;
-    display: flex;
-    margin-bottom: 2.5rem;
+.comments-1{
+    border-radius: 6%;
+    width: 26%;
+    height: 360px;
+    background: #fff;
 }
-.comments-button-1 button{
-    color: black;
-    border-radius: 15px;
-    border: none;
-    height: 1900%;
-    width: 3000%;
-    background-color: white;
+.comments-2{
+    border-radius: 6%;
+    width: 26%;
+    height: 360px;
+    background: #fff;
 }
-.comments-button-2 button{
-    border-radius: 15px;
-    border: none;
-    height: 1900%;
-    width: 3000%;
-    background-color: white;
+.comments-3{
+    border-radius: 6%;
+    width: 26%;
+    height: 360px;
+    background: #fff;
 }
-.comments-button-3 button{
-    border-radius: 15px;
-    border: none;
-    background-color: white;
-    height: 1900%;
-    width: 3000%;
+.person-1 {
+    margin-left: 10%;
+    line-height: 30px;
+    font-size: 110%;
+    color: #475661;
 }
+.person-2{
+    margin-left: 10%;
+    line-height: 30px;
+    color: #475661;
+    font-size: 110%;
+}
+.person-3{
+    margin-left: 10%;
+    line-height: 30px;
+    color: #475661;
+    font-size: 110%;
+}
+
 .t-h-b{
     background: white;
     height: 110vh;
@@ -364,6 +368,9 @@
     padding-top: 4%;
     display: flex;
 }
+.town{
+    padding-right: 10%;
+}
 .town h1{
     padding-left: 11%;
     color: white;
@@ -374,20 +381,166 @@
     color: white;
 }
 .sus{
+    border-color: lightblue;
+    border-style: solid;
     display: flex;
-    /*flex-direction: row;*/
-    /*margin-right: 40%;*/
-    /* padding-top: 18%;*/
+    margin-left: 5%;
+    margin-top: 20%;
 }
+.sus button{
+    font-weight: bold;
+    height: 5vh;
+    width: 150px;
+    cursor: pointer;
+    background-color: #3c6382;
+}
+
 .e-h-b{
-    height: 100vh;
+    height: 80vh;
 }
 .sub-e{
     margin-top: 3%;
-    gap: 10rem;
+    gap: 15rem;
     margin-left: 20%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
+.Us p{
+    color: #475661;
+    line-height: 220%;
+}
+.Us h1{
+    color: #1e323f;
+    font-size: 23px;
+}
+.Do p{
+    color: #475661;
+    line-height: 220%;
+}
+.Do h1{
+    color: #1e323f;
+    font-size: 23px;
+}
+.Spon p{
+    color: #475661;
+    line-height: 220%;
+}
+.Spon h1{
+    color: #1e323f;
+    font-size: 23px;
+}
+.Con p {
+    color: #475661;
+    line-height: 220%;
+}
+.Con h1{
+    color: #1e323f;
+    font-size: 23px;
+}
+
+.Addre h1{
+    color: #1e323f;
+    font-size: 23px;
+}
+.Addre p{
+    color: #475661;
+}
+.Fol h1{
+    color: #1e323f;
+    font-size: 23px;
+}
+.Fol{
+    padding-right: -2rem;
+}
+.img-fol{
+
+}
+.sub-e1 {
+    margin-top: 3%;
+    gap: 13.2em;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.coppy {
+    margin-left: 10%;
+}
+.e-h-b p{
+    text-align: center;
+    margin-top: 8%;
+}
+.love{
+    color: red;
+}
+.comments-1 svg{
+    margin-top: 8%;
+    margin-left:10%;
+}
+.comments-2 svg{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.comments-3 svg{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.semi{
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+.nat {
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+.train{
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+.cost{
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+.admin{
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+.swit{
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+.pat{
+    height: 70px;
+    width: 1050px;
+    background-color: #FFD9BD;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+
 

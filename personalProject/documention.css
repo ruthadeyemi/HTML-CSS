@@ -1,0 +1,43 @@
+body{
+    font-family:sans-serif;
+    line-height: 2;
+}
+#navbar{
+    left: 0px;
+    position: fixed;
+    width: 375px;
+    height: 100%;
+    border-right: solid;
+    border-color:grey;
+
+}
+#main-doc {
+    position: absolute;
+    margin-left: 380px;
+}
+nav{
+    display:block;
+}
+#navbar ul {
+    height: 90%;
+    padding: 5;
+}
+#navbar a {
+    display: block;
+    padding: 15px 50px;
+    color: grey;
+    text-decoration: none;
+}
+section article{
+    color:grey;
+}
+code{
+    background-color: #f7f7f7;
+    color:grey;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px;
+
+}
+@media(max-width: 100px){}
+

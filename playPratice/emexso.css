@@ -82,12 +82,13 @@
     font-size: medium;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: orangered;
     font-weight: 600;
     padding-top: 8px;
     margin-left: 15.3%;
     width: 190px;
     height: 60px;
+    border: none;
     border-radius: 12px;
 }
 
@@ -116,20 +117,45 @@
 .container-body-two-text p{
     text-align: center;
 }
-.container-body-two-text h3{
-    color: #0c2461;
-    margin-left: 25%;
+.design{
+    gap: 5%;
+    padding-top: 7%;
+    padding-left: 15%;
+    display: flex;
+
 }
-.container-body-two-text h4{
-   margin-left: 23%;
-    font-size: small;
-    font-weight: normal;
+.container-body-three{
+    height: 200vh;
+    background-color: #FAE8E0;
 }
-.container-body-two-text h5{
-    margin-bottom: 0.5rem;
-    color: #0c2461;
-    margin-left: 50%;
+.wat{
+    text-align: center;
+    padding-top: 2%;
+}
+.wat p{
+
+}
+.wat h1{
     font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+}
+.wat h2{
+    font-size: 40px;
+    color: #0c2461;
+}
+.not img{
+    padding-top: 7%;
+    padding-left: 10%;
+}
+.ti h1 {
+
+}
+.ti p {
+
+}
+.ti{
+    padding-left: 10%;
 }
 /*background-color:#362952;*/
 /*background-color:#663399;*/

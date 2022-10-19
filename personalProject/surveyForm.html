@@ -1,0 +1,63 @@
+<html lang="en">
+<body>
+<link rel="stylesheet" href="surveyForm.css">
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label name="name" id="name-label">Name
+    <input id="name" type="text" required placeholder="Enter your name"/>
+  </label>
+  <label  id="email-label">Email
+    <input id="email" placeholder="Enter your Email" type="email" required />
+  </label>
+  <label id="number-label">Age(optional)
+    <input id="number" type="number" placeholder="Age" min="13" max="90"/>
+  </label>
+  <label id="dropdown-label">Which option best describes your current role?
+  </label>
+  <select id="dropdown">
+    <option value="0">Select current role</option>
+    <option value="1">student</option>
+    <option value="2">Full time job</option>
+    <option value="3">Full time learner</option>
+    <option value="4">prefer not to say</option>
+    <option value="5">other</option>
+  </select>
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+  <label>
+    <input class="inline" type="radio" name="recommend" value="Definitely"/>Definitely
+  </label>
+  <label>
+    <input class="inline" type="radio" name="recommend" value="Maybe"/>Maybe
+  </label>
+  <label>
+    <input class="inline" type="radio" name="recommend" value="Not sure"/>Not sure
+  </label>
+  <p>What is your favorite feature of freeCodeCamp?</P>
+  <select>
+    <option value="6">Select an option</option>
+    <option value="7">Challenges </option>
+    <option value="8">Projects</option>
+    <option value="9">Community </option>
+    <option value="10">Open source </option>
+  </select>
+  <p>What would you like to see improved? (Check all that apply)</p>
+  <label>
+    <input name="improved" type="checkbox" value="check"/>Front-end Projects</label>
+  <label><input name="improved" type="checkbox" value="check"/>Back-end Projects</label>
+  <label><input name="improved" type="checkbox" value="check"/>Data Visualization</label>
+  <label><input name="improved" type="checkbox" value="check"/>Challenges</label>
+  <label><input name="improved" type="checkbox" value="check"/>Open Source Community</label>
+  <label><input name="improved" type="checkbox" value="check"/>Gitter help rooms</label>
+  <label><input name="improved" type="checkbox" value="check"/>Videos</label>
+  <label><input name="improved" type="checkbox" value="check"/>City Meetups</label>
+  <label><input name="improved" type="checkbox" value="check"/>Wiki</label>
+  <label><input name="improved" type="checkbox" value="check"/>Forum</label>
+  <label><input name="improved" type="checkbox" value="check"/>Additional Courses</label>
+  <label>Any comments or suggestions?
+    <textarea name="suggestions" rows="" cols="" placeholder="Enter your comment here..." ></textarea>
+  </label>
+  <input id="submit" type="submit" value="submit"/>
+</form>
+</body>
+</html>

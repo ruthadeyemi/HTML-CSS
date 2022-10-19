@@ -1,0 +1,30 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+
+<body>  
+
+
+
+
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img{
+  display:block;
+}
+#image{
+  max-width:100%;
+  height:auto;
+  margin:auto;
+}
+
+** end of undefined **
+
